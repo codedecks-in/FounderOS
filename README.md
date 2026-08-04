@@ -1,222 +1,265 @@
-# Founder OS
+![Status](https://img.shields.io/badge/status-active-success)
+![Version](https://img.shields.io/badge/version-v0.1-blue)
+![License](https://img.shields.io/badge/license-private-lightgrey)
 
-## Vision
 
-Founder OS is an opinionated AI-assisted software development framework that enables solo founders and small engineering teams to build production-grade SaaS products using specification-driven development.
+# FounderOS
 
-Instead of treating AI as an autocomplete tool, Founder OS treats AI as a team of specialized engineers working from approved specifications.
+> **Build production-grade startups with AI using Specification-Driven AI Engineering (SDAE).**
 
-Every product follows the same lifecycle:
+FounderOS is an opinionated engineering framework that helps solo founders and small engineering teams build scalable software using AI tools like ChatGPT, Kiro, Cursor, Claude Code, and future AI coding assistants.
 
-Idea → Discovery → Specification → Architecture → Implementation → Testing → Deployment → Growth
+Instead of asking AI to *"write code"*, FounderOS teaches AI **how your engineering organization works** through specifications, engineering principles, reusable templates, and structured workflows.
 
-The objective is to make software development repeatable, predictable, and production-ready while minimizing AI costs and engineering rework.
+---
 
-⸻
+# 🚀 Why FounderOS?
 
-## Mission
+AI has dramatically accelerated software development, but most AI-generated projects still suffer from:
 
-Enable one experienced engineer to build software with the execution capacity of a small, high-performing engineering team.
+- Random prompts
+- Inconsistent architecture
+- Technical debt
+- Duplicate business logic
+- Poor documentation
+- No repeatable engineering process
 
-⸻
+FounderOS solves this by introducing **Specification-Driven AI Engineering (SDAE)**.
 
-## Long-Term Vision
+Instead of generating code first, every project begins with well-defined specifications that guide both engineers and AI agents.
 
-Founder OS should become the default operating system for AI-assisted startup development.
+---
 
-A founder should be able to create a new SaaS product by cloning Founder OS and focusing only on business-specific requirements.
+# 🎯 Vision
 
-⸻
+FounderOS aims to become the **operating system for AI-assisted software development**.
 
-## Core Principles
+A founder should be able to clone FounderOS and build a production-grade SaaS by following a proven engineering workflow instead of reinventing the development process for every new idea.
 
-1. Specification Before Implementation
+---
 
-No code should be generated until specifications have been reviewed and approved.
+# 🏗 Core Principles
 
-Specifications are first-class artifacts and remain under version control.
+- 📄 Specification before implementation
+- 🤖 AI is part of the engineering team
+- 🏛 Production-ready architecture from day one
+- ♻️ Reusable templates over one-off solutions
+- 📚 Documentation is a first-class artifact
+- 🚀 Fast iteration without sacrificing maintainability
 
-⸻
+---
 
-2. AI is an Engineering Team
+# 🔄 Engineering Workflow
 
-Different AI tools have different responsibilities.
+```text
+Idea
+   │
+   ▼
+Market Research
+   │
+   ▼
+Product Discovery
+   │
+   ▼
+PRD
+   │
+   ▼
+Architecture
+   │
+   ▼
+Domain Model
+   │
+   ▼
+API Design
+   │
+   ▼
+UI Specification
+   │
+   ▼
+Implementation
+   │
+   ▼
+Testing
+   │
+   ▼
+Deployment
+   │
+   ▼
+Growth
+```
 
-* ChatGPT → Product strategy, architecture, reviews
-* Kiro → Specification-driven implementation
-* Cursor → Daily engineering work
-* Claude Code → Large-scale refactoring and architecture improvements
+---
 
-Every tool has a clearly defined role.
+# 🤖 AI Responsibilities
 
-⸻
+FounderOS assigns clear responsibilities to each AI tool.
 
-3. Small Iterations
+| Tool | Responsibility |
+|------|----------------|
+| ChatGPT | Product strategy, brainstorming, architecture, PRDs, design reviews |
+| Kiro | Specification-driven implementation, scaffolding, feature generation |
+| Cursor | Daily development, pair programming, small refactors |
+| Claude Code | Large-scale refactoring, architecture improvements, performance optimization |
 
-Large prompts produce inconsistent results.
+Every AI tool has a clearly defined responsibility.
 
-Development should happen in small, independently verifiable modules.
+---
 
-Examples:
+# 📁 Repository Structure
 
-* Authentication
-* Resume Upload
-* AI Assessment
-* Dashboard
-* Mentor Module
+```text
+FounderOS/
 
-Each module should be independently deployable and testable.
+├── docs/
+├── prompts/
+├── templates/
+├── playbooks/
+├── github/
+├── checklists/
+├── examples/
+└── assets/
+```
 
-⸻
+Each directory serves a dedicated purpose and remains reusable across products.
 
-4. Production Quality from Day One
+---
 
-Even MVPs should include:
+# 📈 Maturity Levels
 
-* Logging
-* Error handling
-* Monitoring
-* Security
-* Testing
-* Documentation
+## 🟢 Foundation
 
-Founder OS favors simplicity over shortcuts.
+Designed for validating ideas.
 
-⸻
+Includes:
 
-5. Reusable Assets
+- Vision
+- Product Discovery
+- PRD
+- Architecture
+- MVP
+- Deployment
 
-Everything created during development should be reusable.
+---
 
-Examples include:
+## 🔵 Startup
 
-* Prompt libraries
-* PRD templates
-* Architecture templates
-* API specifications
-* Cursor rules
-* GitHub templates
-* Playbooks
-* Deployment checklists
+Designed for products with real users.
 
-Future startups should inherit these assets instead of recreating them.
+Adds:
 
-⸻
+- Analytics
+- Monitoring
+- Security
+- Feature Flags
+- AI Cost Tracking
 
-## Success Criteria
+---
 
-Founder OS succeeds if it enables founders to:
+## 🟣 Scale
 
-* Build MVPs significantly faster than traditional development.
-* Reduce AI token and credit usage through structured workflows.
-* Maintain production-quality code.
-* Launch products within weeks instead of months.
-* Reuse engineering knowledge across multiple startups.
+Designed for growing engineering teams.
 
-⸻
+Adds:
 
-## Scope
+- Distributed Systems
+- Event-Driven Architecture
+- Platform Engineering
+- SRE
+- Multi-region Deployment
 
-Founder OS includes:
+---
 
-* Product discovery templates
-* Product requirement templates
-* Architecture templates
-* API specifications
-* UI specifications
-* AI prompt libraries
-* Coding standards
-* Cursor rules
-* Claude Code instructions
-* GitHub templates
-* Deployment checklists
-* Growth playbooks
-* Incident playbooks
-* Cost optimization guides
+# 🗺 Roadmap
 
-Founder OS does not include:
+## v0.1
 
-* Business-specific application code
-* Industry-specific workflows
-* Vendor lock-in
-* Opinionated UI design systems
+- Vision
+- Engineering Principles
+- Repository Structure
 
-⸻
+## v0.2
 
-Maturity Levels
+- Prompt Library
+- Templates
 
-Foundation
+## v0.3
 
-Designed for validating new ideas.
+- Cursor Rules
+- Claude Playbooks
 
-Focus:
+## v0.4
 
-* PRD
-* Architecture
-* MVP
-* Deployment
+- Reference SaaS Architecture
 
-⸻
+## v1.0
 
-Startup
+- Production-ready FounderOS
 
-Designed for products with paying customers.
+---
 
-Focus:
+# 📦 What's Included
 
-* Monitoring
-* Analytics
-* Security
-* Cost optimization
-* Feature flags
-* Product metrics
+FounderOS provides reusable engineering assets including:
 
-⸻
+- Product Discovery Templates
+- PRD Templates
+- Architecture Templates
+- API Specifications
+- UI Specifications
+- AI Prompt Libraries
+- Cursor Rules
+- Claude Code Playbooks
+- GitHub Templates
+- Deployment Checklists
+- Security Checklists
+- Growth Playbooks
+- ADR Templates
 
-Scale
+---
 
-Designed for mature engineering organizations.
+# 💡 Design Philosophy
 
-Focus:
+FounderOS is built on the belief that:
 
-* Distributed architecture
-* Event-driven systems
-* Platform engineering
-* Multi-region deployment
-* SRE practices
-* Advanced observability
+> Great software is the result of great engineering systems—not better prompts.
 
-⸻
+The goal is not to replace engineers.
 
-Engineering Philosophy
+The goal is to help engineers build software faster, more consistently, and with higher quality by combining human judgment with AI execution.
 
-Every engineering decision should optimize for:
+---
 
-1. Simplicity
-2. Maintainability
-3. Readability
-4. Testability
-5. Scalability
-6. Cost efficiency
+# 🌍 Inspiration
 
-Complexity should only be introduced when justified by product growth.
+FounderOS draws inspiration from:
 
-⸻
+- Amazon PR/FAQ
+- Domain-Driven Design (DDD)
+- Clean Architecture
+- Spring Boot
+- Linear Engineering
+- Modern AI-assisted development workflows
 
-Definition of Done
+---
 
-A feature is considered complete only when it includes:
+# 📜 License
 
-* Approved specification
-* Production-ready implementation
-* Automated tests
-* Documentation
-* Monitoring
-* Security validation
-* Deployment readiness
+Currently private.
 
-⸻
+Planned for open-source after reaching production maturity.
 
-Guiding Principle
+---
 
-Build products like a disciplined engineering organization, even when you’re a solo founder.
+# ❤️ FounderOS Manifesto
+
+> **Build software like a world-class engineering organization—even if you're a solo founder.**
+
+Every product begins with a specification.
+
+Every engineering decision is documented.
+
+Every AI agent has a defined responsibility.
+
+Every feature is built for production.
+
+Every startup benefits from everything learned before.
