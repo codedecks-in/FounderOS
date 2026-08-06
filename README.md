@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="FounderOS Banner" width="100%"/>
+
 # 🚀 FounderOS
 
 ### **Ideas Become Products.**
