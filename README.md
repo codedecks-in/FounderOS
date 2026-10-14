@@ -101,6 +101,21 @@ FounderOS provides:
 
 ---
 
+# 👥 Who It's For and How to Use It
+
+FounderOS is for founders and small engineering teams who want to use AI while keeping product decisions, specifications, and quality gates explicit.
+
+Use it as a working method for a project:
+
+1. Start with the [Quick Start](docs/quick-start.md) and copy the relevant templates into your project workspace.
+2. Follow the [workflow](docs/workflow.md) from discovery and requirements through architecture, planning, implementation, testing, and release.
+3. Use the [Agent Catalog](docs/agent-catalog.md) to choose an agent guide for each handoff, and the [playbooks](playbooks/README.md) for repeatable procedures.
+4. Review and approve product, security, and release decisions as a person on the team; keep assumptions and open questions visible.
+
+FounderOS currently provides documentation, templates, agent instructions, and playbooks. The [long-term vision](docs/vision.md) includes possible CLI tooling, but no CLI or npm package is available today. See the [completion roadmap](docs/completion-roadmap.md) for current progress.
+
+---
+
 # 🧠 The Core Idea
 
 > **Great software is the result of great engineering systems — not better prompts.**
