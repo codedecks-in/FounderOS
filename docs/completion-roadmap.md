@@ -1,6 +1,6 @@
 # FounderOS Completion Roadmap
 
-**Status:** Working definition  
+**Status:** In progress
 **Updated:** 2026-10-14
 
 ## What “complete” means
@@ -11,25 +11,30 @@ FounderOS is a reusable, tool-agnostic engineering operating system that a found
 
 - Vision, workflow, principles, and the agent role documents exist.
 - The README inventory has been aligned: all seven engineering agent documents exist, and Phase 3 is marked complete.
-- The documented `templates/` and `playbooks/` directories do not exist yet.
+- `templates/` contains starter templates for discovery, research, PRD, architecture, ADRs, domain, database, API, security, UI/UX, AI design, planning, testing, release, and post-release learning. These initial structures need validation through the reference project. `playbooks/` is not present yet.
 - `examples/career-marketplace/` currently contains a discovery artifact only, so it does not demonstrate the complete workflow.
-- The workflow and principles call for UI/UX, AI prompt design, testing, deployment, and improvement artifacts, but the current agent catalog does not cover all those stages explicitly.
+- The workflow and principles call for UI/UX, AI prompt design, testing, deployment, and improvement artifacts. The [agent catalog](agent-catalog.md) now identifies existing owners and gaps for those stages.
 
 ## Completion phases
 
 ### 1. Align the inventory
 
 - Keep README status consistent with files that exist.
-- Publish the agent catalog, with each role's inputs, outputs, handoffs, and quality gate.
-- Resolve the scope gap between workflow stages and available agents. Add or explicitly assign ownership for UI/UX specification, market research, and AI prompt design.
+- Publish the agent catalog, with each role's inputs, outputs, handoffs, and quality gate. **Done:** [agent-catalog.md](agent-catalog.md).
+- Resolve the scope gap between workflow stages and available agents. **Done:** interim ownership for market research, UI/UX, AI design, and continuous improvement is documented in the agent catalog. Dedicated agent guides are optional follow-up work, not a blocker for this milestone.
+- Publish a quick start that applies the framework to a fresh project. **Done:** [quick-start.md](quick-start.md).
 
 **Exit:** Every promised capability is either represented by a maintained artifact or clearly marked out of scope.
 
+**Status: Complete for the current inventory.**
+
 ### 2. Add canonical templates
 
-Create fill-in templates for the workflow's core handoffs: discovery, market research, PRD, architecture and ADR, domain model, database design, API, security, UI/UX, AI design, implementation plan, test strategy/report, release/rollback, and post-release learning.
+Create fill-in templates for the workflow's core handoffs: discovery, market research, PRD, architecture and ADR, domain model, database design, API, security, UI/UX, AI design, implementation plan, test strategy/report, release/rollback, and post-release learning. **Initial set created** in `templates/`; validate and refine through the reference project.
 
 **Exit:** A new project can produce each required artifact without inventing its structure, and each template identifies its upstream inputs and downstream consumers.
+
+**Status: Initial set complete; validation pending.**
 
 ### 3. Add operating playbooks
 
@@ -47,13 +52,13 @@ Extend the career marketplace example beyond discovery with linked PRD, architec
 
 - Add a contribution guide and a lightweight repository consistency check for links, required template sections, and documented inventory.
 - Review terminology, status labels, and cross-document references.
-- Publish a quick start that applies the framework to a fresh project.
+- Publish a quick start that applies the framework to a fresh project. **Done:** [quick-start.md](quick-start.md).
 
 **Exit:** A first-time user can start with the quick start, follow the workflow, and locate the correct role, template, and quality gate at each step.
 
 ## Suggested order
 
-Finish the inventory and quick start first, then create templates, playbooks, and the complete reference project. Add validation and polish after the structure settles. This produces a usable framework before investing in CLI automation.
+Inventory, quick start, and the initial template set are now documented. Continue by writing playbooks and the reference project, then refine templates and add consistency checks. This produces a usable framework before investing in CLI automation.
 
 ## Non-goals for this completion milestone
 

@@ -290,7 +290,10 @@ FounderOS/
 │   └── shared/
 │
 ├── templates/
-├── playbooks/
+│   ├── product-discovery-document.md
+│   ├── prd.md
+│   └── ...
+├── playbooks/                 # Planned
 ├── examples/
 └── assets/
 ```
@@ -331,6 +334,8 @@ FounderOS is currently in **early development**.
 - ✅ Release Agent
 
 The role documents exist. Canonical workflow templates, operating playbooks, and a full end-to-end reference project remain to be completed. See the [FounderOS Completion Roadmap](docs/completion-roadmap.md).
+
+Start a project with the [Quick Start](docs/quick-start.md), or review the [Agent Catalog](docs/agent-catalog.md) to see current workflow ownership and gaps.
 
 ---
 
@@ -390,7 +395,7 @@ Build canonical templates for:
 - Testing
 - ADRs
 
-**Status: 🔵 Planned**
+**Status: 🟢 Complete**
 
 ---
 

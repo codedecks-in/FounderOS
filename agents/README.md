@@ -1,5 +1,7 @@
 # AI Engineering Agents
 
+See the [FounderOS Agent Catalog](../docs/agent-catalog.md) for the current stage-to-agent map, handoffs, coverage gaps, and the duplicate AI implementation guides.
+
 FounderOS organizes AI capabilities as engineering roles rather than AI tools.
 
 Each agent represents a specialized member of a software engineering organization.
