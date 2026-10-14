@@ -293,7 +293,7 @@ FounderOS/
 │   ├── product-discovery-document.md
 │   ├── prd.md
 │   └── ...
-├── playbooks/                 # Planned
+├── playbooks/                 # Operational playbooks
 ├── examples/
 └── assets/
 ```
@@ -333,7 +333,7 @@ FounderOS is currently in **early development**.
 - ✅ Code Review Agent
 - ✅ Release Agent
 
-The role documents exist. Canonical workflow templates, operating playbooks, and a full end-to-end reference project remain to be completed. See the [FounderOS Completion Roadmap](docs/completion-roadmap.md).
+The role documents exist. Canonical workflow templates and initial [operating playbooks](playbooks/README.md) are available; the reference project is a draft design walkthrough. See the [FounderOS Completion Roadmap](docs/completion-roadmap.md).
 
 Start a project with the [Quick Start](docs/quick-start.md), or review the [Agent Catalog](docs/agent-catalog.md) to see current workflow ownership and gaps.
 
@@ -410,7 +410,7 @@ Create reusable playbooks for:
 - Incident Response
 - AI-assisted development
 
-**Status: 🔵 Planned**
+**Status: 🟡 In Progress**
 
 ---
 
@@ -436,7 +436,7 @@ Testing
 Release
 ```
 
-**Status: 🔵 Planned**
+**Status: 🟡 In Progress**
 
 ---
 

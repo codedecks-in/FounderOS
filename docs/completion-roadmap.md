@@ -11,8 +11,8 @@ FounderOS is a reusable, tool-agnostic engineering operating system that a found
 
 - Vision, workflow, principles, and the agent role documents exist.
 - The README inventory has been aligned: all seven engineering agent documents exist, and Phase 3 is marked complete.
-- `templates/` contains starter templates for discovery, research, PRD, architecture, ADRs, domain, database, API, security, UI/UX, AI design, planning, testing, release, and post-release learning. These initial structures need validation through the reference project. `playbooks/` is not present yet.
-- `examples/career-marketplace/` currently contains a discovery artifact only, so it does not demonstrate the complete workflow.
+- `templates/` contains starter templates for discovery, research, PRD, architecture, ADRs, domain, database, API, security, UI/UX, AI design, planning, testing, release, and post-release learning. The career marketplace walkthrough exercises these structures. `playbooks/` contains the initial operating procedures; project use and feedback should refine them.
+- `examples/career-marketplace/` now contains linked draft artifacts from discovery and research planning through release planning. It demonstrates the design workflow, not validated demand, implemented software, executed tests, or a production release.
 - The workflow and principles call for UI/UX, AI prompt design, testing, deployment, and improvement artifacts. The [agent catalog](agent-catalog.md) now identifies existing owners and gaps for those stages.
 
 ## Completion phases
@@ -42,11 +42,15 @@ Document practical procedures for starting a project, changing an approved speci
 
 **Exit:** Playbooks give actionable steps, responsible roles, required artifacts, and stop/go criteria, and agree with `docs/workflow.md` and `docs/principles.md`.
 
+**Status: Initial set created; review and refinement remain.**
+
 ### 4. Complete the reference project
 
-Extend the career marketplace example beyond discovery with linked PRD, architecture, domain/database/API/security/UI artifacts, an implementation plan, validation approach, and release plan. Keep assumptions explicit and cross-reference decisions.
+Extend the career marketplace example beyond discovery with linked PRD, architecture, domain/database/API/security/UI artifacts, an implementation plan, validation approach, and release plan. **Draft design set created** in `examples/career-marketplace/`; founder decisions and market evidence remain open. Keep assumptions explicit and cross-reference decisions.
 
 **Exit:** A reader can follow the example through all applicable workflow stages and see how each handoff changes the next artifact.
+
+**Status: Draft design walkthrough complete; validation and implementation remain out of scope for this artifact set.**
 
 ### 5. Verify and publish
 
@@ -58,7 +62,7 @@ Extend the career marketplace example beyond discovery with linked PRD, architec
 
 ## Suggested order
 
-Inventory, quick start, and the initial template set are now documented. Continue by writing playbooks and the reference project, then refine templates and add consistency checks. This produces a usable framework before investing in CLI automation.
+Inventory, quick start, initial templates, playbooks, and a draft reference walkthrough are now documented. Continue by resolving reference-project decisions, refining these artifacts from use, and adding consistency checks. This produces a usable framework before investing in CLI automation.
 
 ## Non-goals for this completion milestone
 
